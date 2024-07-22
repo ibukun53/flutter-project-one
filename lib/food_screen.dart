@@ -19,7 +19,7 @@ class HouseScreen extends StatelessWidget {
             decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(7),
           ),
-          child: Image.network(''),
+          child: Image.asset('images/img1.webg'),
           ),
           Container(
             margin: const EdgeInsets.only(left:10,right: 10),
@@ -28,7 +28,7 @@ class HouseScreen extends StatelessWidget {
             decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(7),
           ),
-          child: Image.asset('images/'),
+          child: Image.asset('images/img2.jpg'),
           ),
           ],
       )
